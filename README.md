@@ -10,7 +10,7 @@ Webtask used to provide directions within Slack using the Google Directions API.
 
 ### Create a new webtask within Slack
 
-After you have [installed Slash Webtasks](https://webtask.io/slack) on your Slack team, you can create the directions  webtask by typing 
+After you have [installed Slash Webtasks](https://webtask.io/slack) on your Slack team, you can create the directions  webtask by typing the following as a Slack message within any Slack channel:
 
 ```
 /wt make directions
