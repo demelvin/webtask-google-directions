@@ -1,0 +1,16 @@
+{
+  "name": "auth0-webtask-directions",
+  "version": "1.0.0",
+  "description": "Auth0 webtask used to fetch directions within Slack",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Derek R. Melvin (https://github.com/demelvin)",
+  "license": "ISC",
+  "dependencies": {
+    "request": "2.67.0",
+    "request-promise": "1.0.2",
+    "sanitize-html": "^1.15.0"
+  }
+}
