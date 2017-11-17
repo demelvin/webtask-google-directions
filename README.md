@@ -16,7 +16,7 @@ After you have [installed Slash Webtasks](https://webtask.io/slack) on your Slac
 /wt make directions
 ``` 
 #### Add the Webtask
-Once the webtask has been successfully created click the **"Edit it in Webtask Editor"** link within the Slack message. Within the editor copy and paste the contents of the [webtask-slash-google-directions.js](webtask-slash-google-directions.js) file. Next save the Webtask using the save button near the top right of the editor (CTRL+s).
+Once the webtask has been successfully created click the **"Edit it in Webtask Editor"** link within the Slack message. Within the editor copy and paste the contents of the [webtask-slash-google-directions.js](./lib/webtask-slash-google-directions.js) file. Next save the Webtask using the save button near the top right of the editor (CTRL+s).
 
 #### Add the Google API Key
 In order to successfully authenticate with the [Google a Directions API key is needed](https://developers.google.com/maps/documentation/directions/get-api-key). This key needs to be added using the webtask editor to do this open the settings within the editor. 
