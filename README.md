@@ -16,10 +16,10 @@ After you have [installed Slash Webtasks](https://webtask.io/slack) on your Slac
 /wt make directions
 ``` 
 #### Add the Webtask
-Once the webtask has been successfully created click the **"Edit it in Webtask Editor"** link within the Slack message. Within the editor copy and paste the contents of the [webtask-slash-google-directions.js](./lib/webtask-slash-google-directions.js) file. Next save the Webtask using the save button near the top right of the editor (CTRL+s).
+Once the Webtask has been successfully created click the **"Edit it in Webtask Editor"** link within the Slack message. Within the editor copy and paste the contents of the [webtask-slash-google-directions.js](./lib/webtask-slash-google-directions.js) file. Next save the Webtask using the save button near the top right of the editor (CTRL+s).
 
 #### Add the Google API Key
-In order to successfully authenticate with the [Google a Directions API key is needed](https://developers.google.com/maps/documentation/directions/get-api-key). This key needs to be added using the webtask editor to do this open the settings within the editor. 
+In order to successfully authenticate with the directions API [a Google Directions API Key](https://developers.google.com/maps/documentation/directions/get-api-key) is needed. Once you have created a key it needs to be added using the Webtask editor.
 
 To do this you can click the wrench icon near the upper left hand corner of the editor and selecting **Secrets**. Once the secrets UI is displayed click add secret and add the following key/value:
 
@@ -28,7 +28,7 @@ Secret Key: 'GOOGLE_API_KEY'
 Secret Value: '${YOUR_GOOGLE_API_KEY}'
 ``` 
 
-Hit the save button (CTRL+s) for good measure and you webtask setup is complete.
+Hit the save button (CTRL+s) for good measure and you Webtask setup is complete.
 
 ### Usage
 Make sure you are within Slack and you have the [webtask Slack add on installed on your Slack channel](https://webtask.io/slack) then type the following command within the Slack message input:
@@ -37,7 +37,7 @@ Make sure you are within Slack and you have the [webtask Slack add on installed 
 /wt directions <origin> to <destination>
 ```
 
-If you followed the setup correctly this webtask should respond with a list of directions.
+If you followed the setup correctly this Webtask should respond with a list of directions.
 
 ### Resources
 [Webtask](https://webtask.io/)
